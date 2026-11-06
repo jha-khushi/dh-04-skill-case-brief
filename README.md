@@ -19,6 +19,8 @@ python check_quotes.py examples/govind_brief.md examples/govind_judgment.pdf
 
 ## How to use the skill
 
+**In the browser (easiest).** The [Assignment 04 page](https://jha-khushi.github.io/digital-humanities-website/assignment-04.html#run-the-skill) has a *Run the skill* section: pick the judgment and options, copy the full prompt into any chatbot with the judgment PDF, then paste the brief back to check its quotations.
+
 **Any AI chatbot (simplest, works anywhere).** Open ChatGPT, Gemini or Claude. Paste the whole of SKILL.md as your first message, with "Follow these instructions for the rest of this chat." Then upload a judgment PDF and ask, for example: "Brief this judgment, focusing on the right to privacy."
 
 **Claude.ai as a Skill.** Put SKILL.md in a folder named `indian-case-brief-writer`, zip the folder, and upload it under Settings → Capabilities → Skills (if Skills are available on your plan). In a new chat, attach the judgment and ask for a brief; Claude loads the skill on its own.
